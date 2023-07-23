@@ -24,10 +24,15 @@ Knowing is one thing, using it is quite another. Averages, tables and graphs may
 A detailed description of each of the described projects can be found in the note attached to individual folders (Project 1, Project 2, etc.). There you will find the basic assumptions, the biggest challenges, weaknesses and thoughts on the use of this particular tool. Below, the planned roadmap for the analysis results of men's artistic gymnastics in 2022.
 
 [PROJECT 1] - Data - extraction, cleaning and saving.
+
 [PROJECT 2] - SQL database - Database in SQL, containing results from all gymnastics competitions taking place in Poland in 2022.
+
 [PROJECT 3] - Microsoft Excel - Analysis of data from competitions in 2022 using visual elements.
+
 [PROJECT 4] - Power BI - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world.
+
 [PROJECT 5] - Python - An interactive dashboard using a programming language.
+
 [PROJECT 6] - ML model in Python - A simple model that allows you to predict gymnasts score.
 
 At the end of each project you will find three tabs:
