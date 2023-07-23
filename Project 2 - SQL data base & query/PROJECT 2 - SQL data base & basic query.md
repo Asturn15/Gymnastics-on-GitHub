@@ -1,16 +1,19 @@
 There are many websites on the web where we can find ready-made datasets, examples of some of them are provided in the links below:
+
 <>https://www.kaggle.com/datasets<>
-
 <>https://data.gov/<>
-
 <>https://datasetsearch.research.google.com/<>
+
 Unfortunately, when it comes to men's artistic gymnastics, there are very few of them, in addition, these data are often from several years ago, which makes it very difficult to analyze the results. Due to the fact that the regulations according to which points are awarded change every four years, we cannot compare data from a few years ago to those from the last Olympic cycle (2021 - 2024).
 
 For this reason, I decided to build a database in SQL, which will contain the results of all competitions that took place in Poland in 2022. I would like such a database to be able to view not only the results of the competitions themselves, but also to find individual gymnasts and where they competed . Find results broken down by equipment and basic information about gym clubs. For this task I used the following tools:
 
 -> Data from PROJECT 1
+
 -> MySQL Server 8.0.33
+
 -> MySQL Workbench 8.0
+
 -> Visual Studio Code 
 
 Below is a step-by-step description of how we managed to create a complete database with the results:
