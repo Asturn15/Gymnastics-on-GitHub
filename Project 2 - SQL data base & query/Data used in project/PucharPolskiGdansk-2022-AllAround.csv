@@ -1,0 +1,34 @@
+Rk;Surname;Name;category;Birth_year;License_number;Club;FX_Dscore;FX_Escore;FX_total_score;PH_Dscore;PH_Escore;PH_Total_Score;SR_Dscore;SR_Escore;SR_Total_Score;VT_Dscore;VT_Escore;VT_total_score;PB_Dscore;PB_Escore;PB_total_score;HB_Dscore;HB_Escore;HB_total_score;Total_Score
+1;LeKhac;Tomasz;junior;2008;Z/08/00007;CWZS Zawisza KG Bydgoszcz;4;7,9;11,9;3,7;8,8;12,5;2,8;8,4;11,2;2,2;8,3;10,5;4,2;7,7;11,9;2,7;9,3;12;70
+2;Kwiatkowski;Micha³;junior;2005;30185;MKS Kusy Szczecin;4,1;7,8;11,9;3,6;8,3;11,9;3,3;7,9;11,2;2,8;8,8;11,6;3,4;7,3;10,7;2,9;6,2;9,1;66,4
+3;Czarnecki;Aleksander;junior;2005;30195;MKS Kusy Szczecin;4,4;7,5;11,9;3,6;6,3;9,9;2,3;8,6;10,9;4;8,6;12,6;3,4;8,2;11,6;2,7;6,7;9,4;66,3
+4;Kuzdra;Christian;junior;2006;33663;MKS Gdañsk;3,6;7,4;11;3,6;8,3;11,9;3,4;7,7;11,1;2,4;7,2;9,6;3,4;7,3;10,7;2,7;7,5;10,2;64,5
+5;Ko³odziejczyk;Karol;junior;2007;32980;KS AZS AWF Kraków;3,3;7,2;10,5;2,8;8,5;11,3;2,3;8;10,3;2,4;8,4;10,8;2,6;8,9;11,5;2,3;7,5;9,8;64,2
+6;Koperski;Filip;junior;2007;Z/07/00266;KS AZS AWF Kraków;3,1;7,3;10,4;2,9;8,1;11;3,4;6;9,4;2,8;8,6;11,4;3;9;12;2,4;7,2;9,6;63,8
+7;Mishchenko;Oleksandr;junior;2005;33333;MKS Kusy Szczecin;4,2;6,3;10,5;2,7;6;8,7;2,2;7,7;9,9;4;8,9;12,9;3,2;7,4;10,6;3,2;7,5;10,7;63,3
+8;Korbiel;Franciszek;junior;2006;33134;KS AZS AWF Kraków;3,3;5,9;9,2;3,9;8,2;12,1;2,3;7,8;10,1;2,4;8,2;10,6;3,2;8,6;11,8;2,8;6,5;9,3;63,1
+9;Jankowski;Dominik;junior;2007;330115;MKS Gdañsk;3,4;7,5;10,9;2,6;7,2;9,8;2;7,9;9,9;2,8;8,4;11,2;2,4;8,8;11,2;1,8;7,9;9,7;62,7
+10;Moskal;B³a¿ej;junior;2006;330111;MKS Gdañsk;3,2;7,9;11,1;2,6;7;9,6;2,2;7,6;9,8;1,6;8,5;10,1;2,4;9;11,4;1,9;8,2;10,1;62,1
+11;¯eme³ka;Dawid;junior;2006;Z/06/00087;MKS Gdañsk;2,9;7,8;10,7;2,5;5,5;8;1,7;7,7;9,4;1,6;8,8;10,4;2,4;8;10,4;1,5;2,5;4;52,9
+12;Klimczuk;Micha³;junior;2006;330118;MKS Gdañsk;3,4;7,1;10,5;2,6;6,5;9,1;0;0;0;1,6;8,8;10,4;2,4;8,8;11,2;1,8;7,8;9,6;50,8
+13;Kubala;Kacper;junior;2006;330113;MKS Gdañsk;3,2;6,9;10,1;2;3,5;5,5;0;0;0;2,4;8,2;10,6;2,4;8,5;10,9;0;0;0;37,1
+1;Sasnal;Filip;senior;1997;32804;AZS AWF Kraków;5,6;6,65;12,25;4,4;5;9,4;4,2;8;12,2;4,8;8,3;13,1;4,2;9,2;13,4;4,2;8;12,2;72,55
+2;Garnczarek;Kacper;senior;2002;32211;KS AZS AWF Katowice;5,4;7,4;12,8;4,9;6;10,9;2,8;9,2;12;4,4;8,3;12,7;5,3;7;12,3;4,9;6,9;11,8;72,5
+3;Gawroñski;Sebastian;senior;1996;32203;KS AZS AWF Katowice;5,8;5,4;11,2;4,1;7,9;12;5,3;6,6;11,9;5,2;8;13,2;4,9;7,4;12,3;4,8;6,3;11,1;71,7
+4;Wroñski;Filip;senior;2001;32670;NTG Nysa;3,9;7,3;11,2;3,2;7,8;11;3,9;8,2;12,1;4;8,7;12,7;3,4;9;12,4;3,6;8,3;11,9;71,3
+5;Wierzba;Kacper;senior;2003;32450;Klub Gimnastyczny Radlin;3,9;7,9;11,8;3,4;6,4;9,8;3,8;7,9;11,7;4;9;13;3;8,8;11,8;3,3;8;11,3;69,4
+6;Korniichuk;Yehor;senior;2001;Z/2001/135;KS AZS AWFiS Gdañsk;5,1;6,8;11,9;2,7;6;8,7;3,4;7,7;11,1;5,2;8,2;13,4;4,3;8;12,3;3,7;7,3;11;68,4
+7;Lukianienko;Illia;senior;2000;Z/2000/104;MKS Kusy Szczecin;4,2;6,2;10,4;3,3;7,4;10,7;4,1;7,5;11,6;4;8,9;12,9;3,6;7;10,6;3,3;7,4;10,7;66,9
+8;Chruœciel;Szymon;senior;2004;33132;AZS AWF Kraków;4,1;7,3;11,4;3,5;5,5;9;3,1;7,3;10,4;3,2;8,3;11,5;4,2;7,7;11,9;2,5;8,7;11,2;65,4
+9;Kurowski;Jakub;senior;2004;30190;MKS Kusy Szczecin;4;6,3;10,3;3,2;7,4;10,6;3,7;7,3;11;4;8,8;12,8;3,2;5,8;9;2,6;7,6;10,2;63,9
+10;Ludynia;Marceli;senior;2001;32213;KS AZS AWF Katowice;4,7;6,7;11,4;2,9;7,1;10;2,7;7,4;10,1;4;8,7;12,7;3,6;7,4;11;2,6;5,8;8,4;63,6
+11;Bober;Micha³;senior;2002;33750;UKS SP7 £ódŸ;3,8;7,4;11,2;3,1;7,6;10,7;3,4;6;9,4;3,2;8,3;11,5;3,1;6,9;10;2,6;7,3;9,9;62,7
+12;Bracki;Borys;senior;2004;32570;KS AZS AWF Katowice;3,6;7,45;11,05;4,1;6,7;10,8;3,5;8,3;11,8;2,4;8,3;10,7;2,7;6;8,7;2,2;1;3,2;56,25
+13;Kuzdra;Konrad;senior;2003;33664;MKS Gdañsk;3,2;7;10,2;2,4;5,8;8,2;2,2;7,7;9,9;2,4;8;10,4;2,7;7,9;10,6;1,9;4,2;6,1;55,4
+14;Jakubowski;Jakub;senior;2003;33661;CWZS Zawisza KG Bydgoszcz;3,9;7,2;11,1;3,8;7,6;11,4;2,7;6;8,7;2,8;8,3;11,1;2,4;4;6,4;0;0;0;48,7
+15;Paw³owski;Jakub;senior;2004;33097;MKS Gdañsk;3,6;5,7;9,3;3,4;8,4;11,8;0;0;0;4;8,9;12,9;0;0;0;0;0;0;34
+16;Herasymov;Mykyta;senior;2003;Z/2003/338;KS AZS AWFiS Gdañsk;3,5;7,1;10,6;2,6;4,4;7;0;0;0;0;0;0;2,5;8,4;10,9;0;0;0;28,5
+17;Lakhin;Yaroslav;senior;2003;Z/2003/308;CWZS Zawisza KG Bydgoszcz;0;0;0;4,2;8,3;12,5;0;0;0;0;0;0;3,1;9;12,1;0;0;0;24,6
+18;Iaremchuk;Vladyslav;senior;2002;Z/02/00023;KS AZS AWF Katowice;0;0;0;4,5;6,3;10,8;0;0;0;0;0;0;3,5;3;6,5;0;0;0;17,3
+19;Front;Filip;senior;2002;30170;KS AZS AWFiS Gdañsk;0;0;0;0;0;0;4,3;7,2;11,5;0;0;0;0;0;0;0;0;0;11,5
+20;Bia³ow¹s;Oliwier;senior;2004;33662;CWZS Zawisza KG Bydgoszcz;4,4;4,5;8,9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8,9
