@@ -83,9 +83,9 @@ I decided to use the created database to answer on 10 questions about the result
 
 4. _Gymnasts whose club won the most medals and how many?_
 
-5. _What was the highest D score in the all-around competition in Gdańsk?__
+5. _What was the highest D score in the all-around competition in Gdańsk?_
 
-6. _What was the highest D score in pommel horse exercise in 2022?__
+6. _What was the highest D score in pommel horse exercise in 2022?_
 
 7. _What was the average score obtained on each apparatus during the competition in Krakow?_
 
