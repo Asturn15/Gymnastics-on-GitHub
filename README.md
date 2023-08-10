@@ -22,15 +22,14 @@ Knowing is one thing, using it is quite another. Averages, tables and graphs may
 
 A detailed description of each of the described projects can be found in the note attached to individual folders (Project 1, Project 2, etc.). There you will find the basic assumptions, the biggest challenges, weaknesses and thoughts on the use of this particular tool. Below, the planned roadmap for the analysis results of men's artistic gymnastics in 2022.
 
->__**[PROJECT 1](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data)**__ - __Data__ - extraction, cleaning and saving.
->
->__**[PROJECT 2](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query)**__ - __SQL database__ - Database in SQL, containing results from all gymnastics competitions taking place in Poland in 2022.
->
->__**[PROJECT 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis)**__ - __Microsoft Excel__ - Analysis of results from Poland using the most popular tool.
->
->---
->___PROJECTS IN PROGRESS, WILL BE UPDATE IN FUTURE___
->
+__**[PROJECT 1](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data)**__ - __Data__ - extraction, cleaning and saving.
+
+__**[PROJECT 2](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query)**__ - __SQL database__ - Database in SQL, containing results from all gymnastics competitions taking place in Poland in 2022.
+
+__**[PROJECT 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis)**__ - __Microsoft Excel__ - Analysis of results from Poland using the most popular tool.
+
+### Projects in progress, will be update in the future =>
+
 >[PROJECT 4] - Power BI - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world.
 >
 >[PROJECT 5] - Python - An interactive dashboard using a programming language.
@@ -41,12 +40,12 @@ A detailed description of each of the described projects can be found in the not
 
 ---
 
-<span style="color:green">__+++ PROS +++__</span> where it indicates the strengths of the solutions I have used and the actions I have taken!
+__+++ PROS +++__ where it indicates the strengths of the solutions I have used and the actions I have taken!
 
-<span style="color:red">__--- CONS ---__</span> weaknesses, because every coin has two sides.
+__--- CONS ---__ weaknesses, because every coin has two sides.
 
-<span style="color:Gold">__??? SOLUTIONS ???__</span> the solutions I propose for the defects found.
+__??? SOLUTIONS ???__ the solutions I propose for the defects found.
 
 ---
 
-### <span style="color:DimGray">I invite you on a fascinating journey through the world of gymnastics!</span>
+### I invite you on a fascinating journey through the world of gymnastics!</span>
