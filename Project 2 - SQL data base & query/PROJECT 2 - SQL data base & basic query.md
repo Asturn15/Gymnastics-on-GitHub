@@ -70,9 +70,11 @@ Using the capabilities of SQL and the previously created primary and forgein key
 * _Horizontal_bar_2022_
 * _All_around_2022_
 
-Due to the fact that the data from the finals have a different format, they were not used in these tables. We will use them in [Project 4] and [Project 5].
+>Due to the fact that the data from the finals are saved in a different format and contain an additional __Penalty__ column, they were not used in the creation of the results tables. We will use them in [Project 4] and [Project 5].
 
 ## STEP 7 -  Export of tables containing results from every apparatus for future projects ([Exported tables - CSV](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query/Exported%20tables%20-%20CSV))
+
+## STEP 8 - Let's collect some answers
 
 I decided to use the created database to answer on 10 questions about the results, and gymnasts in 2022 ([Database & query](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query/Data%20base%20%26%20query)).
 
@@ -95,7 +97,7 @@ I decided to use the created database to answer on 10 questions about the result
 
 10. _Which athletes scored the highest in all all-around events in 2022? (Sum of Total_points, Top 5)_
 
-At this stage, it turned out that there is an error in the data from the ___DMP-Bydgoszcz-2022-AllAround___ file. Two gymnasts (_License_number: 30185, 33333_) had wrong grades in their scores. Swapped D score with E score. We can come to this conclusion when we look at the amount of the rating. Grade D above 7.0 pts. these are the highest ratings recorded in the world, and extremely rare in addition. Grade E in the range of 3.000 - 4.000 points. is very low and characterized by exercises with several falls. These conclusions could be reached thanks to question 6. ___These errors were not corrected in the original files, but only in the SQL database and extracted tables.___
+>At this stage, it turned out that there is an error in the data from the ___DMP-Bydgoszcz-2022-AllAround___ file. Two gymnasts (_License_number: 30185, 33333_) had wrong grades in their scores. Swapped D score with E score. We can come to this conclusion when we look at the amount of the rating. Grade D above 7.0 pts. these are the highest ratings recorded in the world, and extremely rare in addition. Grade E in the range of 3.000 - 4.000 points. is very low and characterized by exercises with several falls. These conclusions could be reached thanks to question 6. ___These errors were not corrected in the original files, but only in the SQL database and extracted tables.___
 
 The answers to the above questions do not show the full potential of SQL. When asking them, I focused on the perspective of the recipient who knows nothing about the results of gymnastics competitions and would like to review the results.
 
@@ -113,7 +115,7 @@ The answers to the above questions do not show the full potential of SQL. When a
 
 ??? __SOLUTIONS__ ??
 
-In this case, the solution is simple. SQL is great for storing results from competitions and getting simple queries, but for data analysis we just need to use a different tool.
+* In this case, the solution is simple. SQL is great for storing results from competitions and getting simple queries, but for data analysis we just need to use a different tool.
 
 ---
 
