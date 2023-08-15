@@ -32,7 +32,7 @@ For the purposes of operations in sql, I decided to simplify the names of indivi
 * _pc_apparatus_final_2022_
 * _pc_vault_final_2022_
 
-## STEP 3 Clearing data
+## STEP 3 Cleaning data
 
 1. Indication of proper formatting for columns:
 
