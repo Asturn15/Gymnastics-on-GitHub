@@ -31,4 +31,4 @@ If we want our analysis to contain all the important information, we need to add
 
 >At this stage, I had to make a data selection. If we want to calculate the average for each competitor, we must take into account all his scores. If one competitor took part once and scored a very good start, it will be difficult to compare him with the one who took part in all competitions throughout the year. __For this reason, I selected only those who competed at least three times on a given device for the annual comparison__. For competitors who took part in more competitions, the best three results were selected.
 
-6. __Year_AA_Dscore, Year_AA_Escore, Year_AA_Total_Score__ - in AA_2022 sheet,as above, I calculate the Year score.
+6. __Year_AA_Dscore, Year_AA_Escore, Year_AA_Total_Score__ - in AA_2022 sheet as above, I calculate the Year score.
