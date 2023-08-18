@@ -27,17 +27,19 @@ At this stage, our data looks really good, so the cleaning process was limited t
 
 If we want our analysis to contain all the important information, we need to add a few columns. Using what Excel allows us to do, I added columns using appropriate formulas:
 
-1. ___AA_Dscore, AA_Escore, Total_Score___ - for each competition - in the sheet containing all-around results (_AA_2022_). When creating this table in the second project, I mistakenly missed it, so I quickly fix it!
+1. `AA_Dscore, AA_Escore, Total_Score` - for each competition - in the sheet containing all-around results (_AA_2022_). When creating this table in the second project, I mistakenly missed it, so I quickly fix it!
 
-2. In the sheets containing the results from individual competitions, information about whether the competitor took part in the all-around competition (___All Around___).
+2. In the sheets containing the results from individual competitions, information about whether the competitor took part in the all-around competition - `All Around`.
 
-3. ___AA_Dscore, AA_Escore___ - for each competition - the sum of D and E score from the entire all-around for the competitors who took part in it.
+3. `AA_Dscore, AA_Escore` - for each competition - the sum of D and E score from the entire all-around for the competitors who took part in it.
 
-4. ___AVG_D_Score, AVG_Escore, AVG_Total_Score___ - for each sheets with apparatus results.
+4. `AVG_D_Score, AVG_Escore, AVG_Total_Score` - for each sheets with apparatus results.
 
 >At this stage, I had to make a data selection. If we want to calculate the average for each competitor, we must take into account all his scores. If one competitor took part once and scored a very good start, it will be difficult to compare him with the one who took part in all competitions throughout the year. __For this reason, I selected only those who competed at least three times on a given apparatus for the annual comparison__. For competitors who took part in more competitions, the best three results were selected.
 
-6. ___Year_AA_Dscore, Year_AA_Escore, Year_AA_Total_Score___ - in AA_2022 sheet as above, I calculate the Year score.
+6. `Year_AA_Dscore, Year_AA_Escore, Year_AA_Total_Score` - in AA_2022 sheet as above, I calculate the Year score.
+
+5. Hide column with apparatus result in AA_2022 sheet.
 
 ## STEP 4 - Calculate avarange score & standard deviation, finding top score and best gymnasts
 
@@ -52,7 +54,7 @@ The results were formatted as tables and placed below the original data.
 
 Now that we have the basic values describing our results, we can use them to make them more readable. But before we go any further, I'll take a little space here to explain how gymnasts get their scores. A few words about this appeared in earlier projects, but for the understanding of this and subsequent analyses, it needs to be expanded.
 
-__Difficult Score (D score)__ - is a rating given to a gymnast for how difficult an exercise he performed. It consists of four special requirements for meeting which you can get _0.5_ points. These requirements are different for each instrument (Vault is an exception - there are no requirements here). In addition to the requirements, points are awarded for the 8 most difficult elements - for juniors, 10 for seniors. How do we know how many points each item is worth? These can be found in special tables in the [Code of Points](https://www.gymnastics.sport/publicdir/rules/files/en_%202022-2024%20MAG%20CoP.pdf). In short - the elements are classified into difficulty groups, from _A_ to _J_. Element _A_ of the group is worth _0.1_ points, element _B_ of the group is worth _0.2_ points, etc. At the end of the exercise, the judges evaluating the difficulty by listing all the elements and choose the most difficult ones - with the greatest benefit for the competitor. Some examples:
+__`Difficult Score (D score)`__ - is a rating given to a gymnast for how difficult an exercise he performed. It consists of four special requirements for meeting which you can get _0.5_ points. These requirements are different for each instrument (Vault is an exception - there are no requirements here). In addition to the requirements, points are awarded for the 8 most difficult elements - for juniors, 10 for seniors. How do we know how many points each item is worth? These can be found in special tables in the [Code of Points](https://www.gymnastics.sport/publicdir/rules/files/en_%202022-2024%20MAG%20CoP.pdf). In short - the elements are classified into difficulty groups, from _A_ to _J_. Element _A_ of the group is worth _0.1_ points, element _B_ of the group is worth _0.2_ points, etc. At the end of the exercise, the judges evaluating the difficulty by listing all the elements and choose the most difficult ones - with the greatest benefit for the competitor. Some examples:
 
 * Backflip on Floor Exercise is _A_ group - worth _0.1_ points
 * Triple backflip on Floor Exercise is _H_ groups - worth _0.8_ points
@@ -63,7 +65,7 @@ One of the requirements on each of the devices is the landing of the appropriate
 
 > As I mentioned earlier, the vault is an exception. Here, the coach reports before the start what jump his competitor will perform, and his score is read from the Code of Points. If he makes an easier jump, his score will be reduced accordingly.
 
-__Execution Score (E score)__ - is a mark for how correctly the competitor performed his exercise. This grade is set differently from that for difficulty. Each gymnast whose exercise consists of the minimum number of elements - _7_ for juniors, _9_ for seniors, receives __10_ points at the beginning. Points for errors made during the exercise are subtracted from this value.
+__`Execution Score (E score)`__ - is a mark for how correctly the competitor performed his exercise. This grade is set differently from that for difficulty. Each gymnast whose exercise consists of the minimum number of elements - _7_ for juniors, _9_ for seniors, receives __10_ points at the beginning. Points for errors made during the exercise are subtracted from this value.
 
 * _Small_ -  cost _0.1_ point
 * _Medium_ - cost _0.3_ point
@@ -78,7 +80,7 @@ What do we call errors? What is a big mistake and what is only a small one? In s
 
 Why does the format of this number have 3 decimal places? As you can easily see, whether the jump is "big" or "medium" or "small" is a relative thing, that's why there are several E judges during the competition, and the score is their arithmetic mean. As always - it's better to see the examples, so as before, watch the videos => [Example 1](https://www.youtube.com/watch?v=EXCoDxnAbT8&ab_channel=calebfever), [Example 2](https://www.youtube.com/watch?v=PsotXyhe1Cg&ab_channel=GymBestEdit), [Example 3](https://www.youtube.com/watch?v=u2_oOeYwgSo&ab_channel=GymBestEdit).
 
-__Penalty__ - Happiness is easier here. These are points deducted for breaking the rules included in the regulations, like:
+__`Penalty`__ - Happiness is easier here. These are points deducted for breaking the rules included in the regulations, like:
 
 * Too long exercise
 * Use of mattresses where prohibited
@@ -86,7 +88,7 @@ __Penalty__ - Happiness is easier here. These are points deducted for breaking t
 
 I intentionally don't give values here because there are a lot of conditions, and it's not that common again.
 
-__Total Score__ = is the sum of all of the above (__D Score + Escore__) - __Penalty__
+__`Total Score`__ = is the sum of all of the above => (__D Score + Escore__) - __Penalty__
 
 > Looking at what directly affects the final grade, we notice that one of them can be "easily" increased, making our exercise more difficult (D score). The second of these ratings (E score) is a bit more problematic in this respect. Looking at what directly affects the final grade, we notice that one of them can be "easily" increased, making our exercise more difficult (D score). The second of these ratings (E score) is a bit more problematic in this respect. Everyone who went for a short jog at least once experienced fatigue, and with it had to slow down. The same applies to gymnastics, so even the simplest exercises are never flawless.
 
@@ -94,9 +96,11 @@ Why do we need to know this? Thanks to this knowledge, it will be easier for us 
 
 ---
 
-1. To make our data more readable, we will use our new knowledge and mark in our spreadsheet any D score that do not meet all the requirements on a particular appartus. All these scores are marked in bright red.
+1. To make our data more readable, we will use our new knowledge and mark in our spreadsheet any D score that do not meet all the requirements on a particular appartus. All these scores are marked in `bright red`.  better than one standard deviation from avarange with a `orange`
 
 * For junior - _6_ elements * _A_ group (_0.1_) + _B_ group dimounts (_0.2_) + _1.8_ (Minimal requirements) = _2,6_ D Score
 * For senior - _8_ elements * _A_ group (_0.1_) + _C_ group dimounts (_0.3_) + _1.8_ (Minimal requirements) = _2,9_ D score
 
-2. The highest D ratings are marked with an `star`
+2. Highest Total Score are marked in `gold`, better than one standard deviation from avarange with a `green`
+
+3. In the case of Execution score, I used a slightly different method. As this one is much more variable, the formatting was based on the sum from the entire competition. In my opinion, this reflects how well the gymnast practiced much better than the grade from a single exercise. Those who exercised better than average were highlighted in `pink`.
