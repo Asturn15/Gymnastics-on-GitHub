@@ -31,19 +31,19 @@ This process included:
 
 3. Adding a column specifying the category in which the players competed.
 
-4. Determination of the __Escore__ column - in the results from international competitions it is in the protocols, in the results from Poland it should have been calculated on the basis of the formula __Escore__ = __Total_Score__ - __D_Score__.
+4. Determination of the `Escore` column - in the results from international competitions it is in the protocols, in the results from Poland it should have been calculated on the basis of the formula __Escore__ = __Total_Score__ - __D_Score__.
 
 5. Assigning the appropriate format for displaying numbers.
 
 You can find more about this in the [Project 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis), where I explain the grades gained by gymnasts in detail. At this stage, just a simple explanation:
 
-__D Score__ - the score obtained by the competitor for how difficult the exercise was (more = better)
+`D Score` - the score obtained by the competitor for how difficult the exercise was (more = better)
 
-__E Score__ - the score that the competitor receives for how correctly he performed his exercise (more = better)
+`E Score` - the score that the competitor receives for how correctly he performed his exercise (more = better)
 
-__Pentalty__ - Negative points awarded for prohibited actions such as using non-permitted mattresses or exceeding exercise time
+`Pentalty` - Negative points awarded for prohibited actions such as using non-permitted mattresses or exceeding exercise time
 
-___Total_Score = (D_Score + E_Score) - Pentalty___
+`Total_Score = (D_Score + E_Score) - Pentalty`
 
 >___Here we run into the first serious limitation of this project.___ When we see the protocols from international competitions, it turns out that __Total_score__ is calculated based on the formula:
 __Total_Score__ = (__D_Score__ + __E_Score__) - __Pentalty__. In the all-round results used for the analysis of competitions at the national level [Project 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis), we will not find the __Penalty__ column. For this reason, I was forced to simplify this calculation. At the same time, this procedure will not significantly affect the results of the analyses, but it should be noted.
@@ -54,27 +54,28 @@ Due to the fact that not every competition in Poland had finals for each apparat
 
 The sheets were saved by me in two formats:
 
-* __XLS__ In folder [Clean XLS](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20XLS)
-* __CSV__ In folder [Clean CSV](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20CSV)
+* `XLS` in folder [Clean XLS](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20XLS)
+* `CSV` in folder [Clean CSV](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20CSV)
 
 ---
 
-+++ __PROS__ +++
+`+++ __PROS__ +++`
 
 * Simplicity and accessibility of the tools used
 * Ease of use in data cleaning and transformation
 * Graphic user interface
 * Ability to manually manipulate data
 
---- __CONS__ ---
+`--- __CONS__ ---`
 
 * This method is difficult to scale for larger amounts of data
 * Due to the structure of PDF files, each of them is read differently, which makes it difficult to find repeatability in the steps performed and build macros
 * Requires manual data wipe
 
-??? __SOLUTIONS__ ???
+`??? __SOLUTIONS__ ???`
 
 * Contact with the organizer - they may have files in a different extension than PDF, which are not available on the web
 * Webscraping seems like a very good solution, but... competition results available on the internet are incomplete. Contains only [Total score]
+* When creating project 3, I came up with the idea of building small macros and assigning them to keyboard shortcuts. This could save some time in data extraction!
 
 ### As I mentioned at the beginning - I couldn't find files in a format other than PDF. But now they are! In the future, I would like to expand the database of CSV files from other professions for more extensive analysis. In the meantime, feel free to use these, and see my other project =>

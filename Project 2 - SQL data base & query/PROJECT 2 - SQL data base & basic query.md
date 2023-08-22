@@ -12,14 +12,14 @@ Unfortunately, when it comes to men's artistic gymnastics, there are very few of
 
 For this reason, I decided to build a database in SQL, which will contain the results of all competitions that took place in Poland in 2022. I would like such a database to be able to view not only the results of the competitions themselves, but also to find individual gymnasts and where they competed. Find results broken down by apparatus and basic information about gymnastics clubs. For this task I used the following tools:
 
-* Data from [PROJECT 1](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20CSV/Result%20from%20Poland)
-* MySQL Server 8.0.33
-* MySQL Workbench 8.0
-* Visual Studio Code
+* `Data` from [PROJECT 1](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20CSV/Result%20from%20Poland)
+* `MySQL Server 8.0.33`
+* `MySQL Workbench 8.0`
+* `Visual Studio Code`
 
 Below is a step-by-step description of how we managed to create a complete database with the results:
 
-## STEP 1 - Creating a data base - _mag_result_2022_
+## STEP 1 - Creating a data base - `mag_result_2022`
 
 ## STEP 2 - Creating tables and loading data
 
@@ -36,25 +36,25 @@ For the purposes of operations in sql, I decided to simplify the names of indivi
 
 1. Indication of proper formatting for columns:
 
-* ___Dsore___ (Decimal 10.1)
-* ___Escore___ (Decimal 10.3)
-* ___Total_score___ (Decimal 10.3)
+* `Dsore` (Decimal 10.1)
+* `Escore` (Decimal 10.3)
+* `Total_score` (Decimal 10.3)
 
-2. Creation of the ___Name___ column containing combined data from the ___Surname___ and ___Name___ columns - similar to the protocols from international competitions.
+2. Creation of the `Name` column containing combined data from the `Surname` and `Name` columns - similar to the protocols from international competitions.
 
-3. Remove empty spaces in the ___Club___ column.
+3. Remove empty spaces in the `Club` column.
 
-## STEP 4 - Creating a table in which we will find all the gymnasts who took part in the competition in 2022 - _gymnasts_
+## STEP 4 - Creating a table in which we will find all the gymnasts who took part in the competition in 2022 - `gymnasts`
 
-1. Create a primary key for the ___License_number___ column and foreign keys for the corresponding columns in tables containing competition results.
+1. Create a primary key for the `License_number` column and foreign keys for the corresponding columns in tables containing competition results.
 
 2. Adding columns in which we will find information about the number of starts in the year and the names of the cities in which the competitor competed.
 
 3. Adding columns in which we will find information about the number of finals in Polish Championship and total number of medals in 2022.
 
-## STEP 5 - Creation of a table in which we will find all the clubs that competed in 2022 - _clubs_
+## STEP 5 - Creation of a table in which we will find all the clubs that competed in 2022 - `clubs`
 
-1. Create primary key for ___Club___ column and foreign keys for corresponding columns in other tables.
+1. Create primary key for `Club` column and foreign keys for corresponding columns in other tables.
 
 1. Adding a column with data on the number of gymnasts in each category, the name of the city from which the club comes from, and its address.
 
@@ -101,22 +101,22 @@ I decided to use the created database to answer on 10 questions about the result
 
 The answers to the above questions do not show the full potential of SQL. When asking them, I focused on the perspective of the recipient who knows nothing about the results of gymnastics competitions and would like to review the results.
 
-+++ __PROS__ +++
+`+++ __PROS__ +++`
 
 * Easy to scale
 * Easy manipulation of large amounts of data
 * Fast
 
---- __CONS__ ---
+`--- __CONS__ ---`
 
 * Poor Interface - it makes look everything very complex even when it's not.
 * Each information we are interested in requires a separate query.
 * If we want to see the data in a visual form, we do not have this option.
 
-??? __SOLUTIONS__ ??
+`??? __SOLUTIONS__ ??`
 
 * In this case, the solution is simple. SQL is great for storing results from competitions and getting simple queries, but for data analysis we just need to use a different tool.
 
 ---
 
-I invite you to [Project 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis), where you will find a complete analysis with an explanation of gymnastics issues and visualization of all these results. There it will be easier for us to reflect on the above numbers and answer more questions =>
+### I invite you to [Project 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis), where you will find a complete analysis with an explanation of gymnastics issues and visualization of all these results. There it will be easier for us to reflect on the above numbers and answer more questions =>
