@@ -104,3 +104,23 @@ Why do we need to know this? Thanks to this knowledge, it will be easier for us 
 2. Highest Total Score are marked in `gold`, better than one standard deviation from avarange with a `green`
 
 3. In the case of Execution score, I used a slightly different method. As this one is much more variable, the formatting was based on the sum from the entire competition. In my opinion, this reflects how well the gymnast practiced much better than the grade from a single exercise. Those who exercised better than average were highlighted in `pink`.
+
+>__All the above designations are based on conditional formatting calculated on the basis of formulas, thanks to which tables with competition results are fully dynamic!__
+>
+>The values for these formulas are listed in the table next to the results. The first attempt was based on entering full calculation formulas for conditional formatting, but such a large number of conditions resulted in a lack of smoothness in the operation of the spreadsheet, which, combined with the troublesome implementation of entering formulas for conditional formatting, turned out to be extremely burdensome.
+
+## STEP 6 - Distribution of results
+
+When we look at the ratings, their averages and standard deviation, we can sometimes assume that they do not fully reflect the state of affairs. What will help us understand why is how the scores break down. We'll need a chart for that.
+
+To get data for it, I could write formulas that will count the number of results from specific ranges, but ... excel has better tools for this - Pivot Table! To make it easier to use, I created tables in each of the sheets in a shifted form, where each assessment is not in a separate column, but in a row. For this I used Power Query. What was very helpful at this stage were the macros. Thanks to this tool, we managed to save some time on very repetitive activities.
+
+1. I added the `Competition place` column to the resulting Table. For the needs of a single pivot table, it is unnecessary, but later in the project I will want to collect this data in a friendly dashboard, so it will come in handy!
+
+2. Then I got rid of the detailed names for the points. I divided them into three categories - `Dscore, Escore, Total Score`.
+
+3. The above steps allowed to summarize the data from the competitions in the form of a pivot table. This one, along with its source, is to the right of the original data.
+
+4. Adding pivot charts together with slicers - thanks to them viewing charts is much more comfortable.
+
+## STEP 7 - Build interactive dashoboard
