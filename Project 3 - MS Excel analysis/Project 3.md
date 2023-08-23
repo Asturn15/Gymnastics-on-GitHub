@@ -109,11 +109,11 @@ Why do we need to know this? Thanks to this knowledge, it will be easier for us 
 >
 >The values for these formulas are listed in the table next to the results. The first attempt was based on entering full calculation formulas for conditional formatting, but such a large number of conditions resulted in a lack of smoothness in the operation of the spreadsheet, which, combined with the troublesome implementation of entering formulas for conditional formatting, turned out to be extremely burdensome.
 
-## STEP 6 - Distribution of results
+## STEP 6 - Distribution of results in apparatus sheet
 
 When we look at the ratings, their averages and standard deviation, we can sometimes assume that they do not fully reflect the state of affairs. What will help us understand why is how the scores break down. We'll need a chart for that.
 
-To get data for it, I could write formulas that will count the number of results from specific ranges, but ... excel has better tools for this - Pivot Table! To make it easier to use, I created tables in each of the sheets in a shifted form, where each assessment is not in a separate column, but in a row. For this I used Power Query. What was very helpful at this stage were the macros. Thanks to this tool, we managed to save some time on very repetitive activities.
+To get data for it, I could write formulas that will count the number of results from specific ranges, but ... excel has better tools for this - Pivot Table! To make it easier to use, I created tables in each of the apparatus sheets in a shifted form, where each assessment is not in a separate column, but in a row. For this I used Power Query. What was very helpful at this stage were the macros. Thanks to this tool, we managed to save some time on very repetitive activities.
 
 1. I added the `Competition place` column to the resulting Table. For the needs of a single pivot table, it is unnecessary, but later in the project I will want to collect this data in a friendly dashboard, so it will come in handy!
 
@@ -123,4 +123,6 @@ To get data for it, I could write formulas that will count the number of results
 
 4. Adding pivot charts together with slicers - thanks to them viewing charts is much more comfortable.
 
-## STEP 7 - Build interactive dashoboard
+## STEP 7 - Add charts to competition sheet
+
+## STEP 8 - Build interactive dashoboard
