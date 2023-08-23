@@ -115,14 +115,18 @@ When we look at the ratings, their averages and standard deviation, we can somet
 
 To get data for it, I could write formulas that will count the number of results from specific ranges, but ... excel has better tools for this - Pivot Table! To make it easier to use, I created tables in each of the apparatus sheets in a shifted form, where each assessment is not in a separate column, but in a row. For this I used Power Query. What was very helpful at this stage were the macros. Thanks to this tool, we managed to save some time on very repetitive activities.
 
-1. I added the `Competition place` column to the resulting Table. For the needs of a single pivot table, it is unnecessary, but later in the project I will want to collect this data in a friendly dashboard, so it will come in handy!
+1. I got rid of the detailed names for the points. I divided them into three categories - `Dscore, Escore, Total Score`.
 
-2. Then I got rid of the detailed names for the points. I divided them into three categories - `Dscore, Escore, Total Score`.
+2. The above steps allowed to summarize the data from the competitions in the form of a pivot table. This one, along with its source, is to the right of the original data.
 
-3. The above steps allowed to summarize the data from the competitions in the form of a pivot table. This one, along with its source, is to the right of the original data.
-
-4. Adding pivot charts together with slicers - thanks to them viewing charts is much more comfortable.
+3. Adding pivot charts together with slicers - thanks to them viewing charts is much more comfortable.
 
 ## STEP 7 - Add charts to competition sheet
+
+1. As above, for each of the sheets containing data from individual occupations, I created tables in the presented form. I added the "Place of competition" column to it - it will be useful when creating an interactive dashboard!
+
+2. I added pivot tables in which I summarized the results from each competition in a convenient form - together with a graph.
+
+3. As there is a lot of data, for the comfort of viewing them, I have included a slicer.
 
 ## STEP 8 - Build interactive dashoboard
