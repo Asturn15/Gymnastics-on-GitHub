@@ -37,9 +37,9 @@ If we want our analysis to contain all the important information, we need to add
 
 >At this stage, I had to make a data selection. If we want to calculate the average for each competitor, we must take into account all his scores. If one competitor took part once and scored a very good start, it will be difficult to compare him with the one who took part in all competitions throughout the year. __For this reason, I selected only those who competed at least three times on a given apparatus for the annual comparison__. For competitors who took part in more competitions, the best three results were selected.
 
-6. `Year_AA_Dscore, Year_AA_Escore, Year_AA_Total_Score` - in AA_2022 sheet as above, I calculate the Year score.
+5. `Year_AA_Dscore, Year_AA_Escore, Year_AA_Total_Score` - in AA_2022 sheet as above, I calculate the Year score.
 
-5. Hide column with apparatus result in AA_2022 sheet.
+6. Hide column with apparatus result in AA_2022 sheet.
 
 ## STEP 4 - Calculate avarange score & standard deviation, finding top score and best gymnasts
 
@@ -123,10 +123,77 @@ To get data for it, I could write formulas that will count the number of results
 
 ## STEP 7 - Add charts to competition sheet
 
-1. As above, for each of the sheets containing data from individual occupations, I created tables in the presented form. I added the "Place of competition" column to it - it will be useful when creating an interactive dashboard!
+1. As above, for each of the sheets containing data from individual occupations, I created tables in the presented form.
 
 2. I added pivot tables in which I summarized the results from each competition in a convenient form - together with a graph.
 
 3. As there is a lot of data, for the comfort of viewing them, I have included a slicer.
 
 ## STEP 8 - Build interactive dashoboard
+
+We have a lot of data in the whole spreadsheet. Those coming from competitions as well as from the analysis of individual instruments, but browsing them is not very intuitive. A lot of sheets, various tables, etc. It's rather something for data lovers who like to look at numbers. If I wanted to go to a meeting with the board of a sports association and show a summary of 2022, I need one sheet in which we will find all the most important information - preferably with a graphic interpretation because it speaks to us much more. An interactive dasboard is perfect for this.
+
+1. To fit all sheets in one, we will use transformed tables to create one `Dasboard_Data`. To transform all these tables I used macros for the sake of a large number of repetitive activities.
+
+>At this stage, I gave up building fully dynamic tables (more in the summary). Due to the number of calculated rows, this had a very negative impact on the operation of the entire sheet.
+
+2. In the `Dashboard_Data` sheet, I have placed 7 properly filtered pivot tables. Thanks to this, they will be the source of data necessary in our dashboard.
+
+3. The last stage of this project is to build a clear dashboard with all the most important information. Among them, I decided to specify the averages of individual grades, and indicate the highest ones together with the name of the gymnast who won it. To be able to compare the best with the other gymnasts, I added a pivot chart, together with slicers that will easily allow you to select the information that interests us.Na samym końcu zadbałem o to by wszystkie te informacje były czytelne dodając odpowiednią kolorystykę dla całego dashboardu
+
+## STEP 9 - Use  the data to answer the question
+
+To make this project more practical, let's try to answer some questions:
+
+1. _Which gymnasts (junior/senior) got the highest mark in the free exercises at the competition in Bydgoszcz?_
+
+   Junior: LEKHAC Tomasz & CZARNECKI Aleksander - 12,950 pts.
+
+   Senior: SASNAL Filip - 13,600 pts.
+
+2. _How many gymnasts achieved a high score (better than 1 SD) in bar exercises at the competition in Zabrze?_
+
+    Three gymnasts - 2 senior and 1 junior
+
+3. _Which players got a particularly high execution score (better than 1 SD) at the competition in Krakow?_
+
+    LEKHACK Tomasz, BRACKI Borys and KUROWSKI Jakub
+
+4. _On which apparatus during the competition in Gdańsk, several players received the highest mark?_
+
+    On floor exercise and still rings.
+
+5. _Who was the best floor exercise gymnast in 2022? (Highest year score) from senior? Which competitor got the highest score for difficulty and which for performance?_
+
+    The best gymnasts on floor exercise was SANSAL Filip with 39.450 pts. He also had the highest score for difficulty 17.4 pts. The best perfomer was BRACKI Borys.
+
+6. _How many grades in pommel horse exercises fail to meet the FIG minimum requirements?_
+
+   Seventeen - five senior and twelve junior scores.
+
+7. _How many juniors get a D score above average in still rings exercises?_
+
+    Four juniors.
+
+8. _Which gymnasts in 2022 averaged the highest marks on a vault? (Top3)_
+
+    Senior: SASNAL Filip, KUROWSKI Jakub, GARCZAREK Kacper
+
+    Junior: KWIATKOWSKI Michał, CZARNECKI Aleksander, KOPERSKI Filip
+
+9. _Who got the highest mark in parallel exercises in 2022 among juniors?_
+
+    LEKHAC Tomasz with 13.300 pts.
+
+10. _What was the highest score for the difficulty in exercises on horizontal bar?_
+
+    4.9 pts. - GARNCZAREK Kacper
+
+11. _Knowing that a team at international competitions consists of at least three gymnasts, indicate the names of those who could represent their country in 2023_
+
+    Senior: SASNAL Filip, GARCZAREK Kacper and KUROWSKI Jakub
+    Junior: LEKHAC Tomasz, KUZDRA Christian and KWIATKOWSKI Michał
+
+## SUMMARY
+
+At this stage, I considered project 3 to be temporarily closed. Thanks to the tool which is excel, we managed to go from pdf files to the annual summary of the results of all competitors from 2022. Thanks to the calculations made, we met the best gymnasts on individual apparatus and we know how the results are distributed. Like any project, this one is not without flaws. In this part, I will try to discuss the decisions made in it and their consequences, pointing to its strengths and weaknesses.
