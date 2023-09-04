@@ -101,6 +101,8 @@ I decided to use the created database to answer on 10 questions about the result
 
 The answers to the above questions do not show the full potential of SQL. When asking them, I focused on the perspective of the recipient who knows nothing about the results of gymnastics competitions and would like to review the results.
 
+## SUMMARY
+
 `+++ __PROS__ +++`
 
 * Easy to scale

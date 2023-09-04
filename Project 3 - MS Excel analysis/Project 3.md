@@ -197,3 +197,56 @@ To make this project more practical, let's try to answer some questions:
 ## SUMMARY
 
 At this stage, I considered project 3 to be temporarily closed. Thanks to the tool which is excel, we managed to go from pdf files to the annual summary of the results of all competitors from 2022. Thanks to the calculations made, we met the best gymnasts on individual apparatus and we know how the results are distributed. Like any project, this one is not without flaws. In this part, I will try to discuss the decisions made in it and their consequences, pointing to its strengths and weaknesses.
+
+When I first looked at the imported results, I thought that it would be possible to fit all the results into one graph with a lot of filters. I took a piece of paper and tried to design such a dashboard, but I quickly realized that it resembled an airplane cockpit rather than a legible board. For this reason, I decided on a kind of two-track approach to this project:
+
+1. __Creating a dashboard, where we will find a summary of the most important information about individual devices, and the ratings gained by competitors throughout the year__. It is this information that will often be the most important at the stage of making training decisions.
+
+2. __Preserving the original results and giving them a legible character that will quickly pick out the most important results.__ Thanks to this, we will not overlook players who scored very good marks during a specific start, but, for example, for health reasons, fired only once or twice.
+
+The above decisions determined my next actions. Even though the imported results are immutable (data is from last year and will not change), I have decided to keep all tables in this worksheet (with one exception) fully dynamic. __They can be sorted and filtered in any way and it does not affect other tables that refer to them__, which I consider a big advantage of this project.
+
+At the same time, what is its strength is also its weakness. __Due to the large number of conditions included in the calculations, multiplied by the number of datasheets, sometimes the file itself has problems with smooth operation.__
+
+Linking data with each other using links causes visual elements such as slicers or charts located in the same sheet as the tables with results to react to changes in the filtered tables, which may spoil their readability in relation to the default settings.
+
+Another disadvantage, which is a consequence of the actions taken, is the fact that it is difficult to transfer tables with data in sheets concerning individual occupations. __The large number of references, the implementation of various necessary formulas, conditions and references make moving the result table a hassle.__
+
+The final aspect related to references is the conditional formatting used. In order to include all the information I considered important, I copied the tables with the calculations in each sheet and placed it next to the results, and applied the formatting rules to these tables. __Building a large number of conditions for different ranges, based on formulas full of calculations, turned out to be very inconvenient and time-consuming.__ This is directly related to the way conditional formatting is implemented in excel, so I decided that it would be much easier to duplicate this data, however, they are references. The original tables are below the results and have remained fully dynamic.
+
+Many of the above disadvantages have relatively simple solutions, such as extending the design phase, thanks to which some errors could be avoided, or improving individual steps with the use of macros, however, it would be even more time-consuming, and the assumption of this project was to use the most common Excel tools. The problem that I couldn't solve in this project is the problem with refreshing information about players with the highest ratings in the dashboard. __Despite the correct implementation of this and the pivot tables working correctly, these tiles do not refresh when the file is run. This can be fixed by simply flashing them with enter in the formula bar.__
+
+With this knowledge, would I like to add/change anything in this project?
+
+1. Improve the distribution of data in sheets with results from competitions/ appratus.
+2. Add a summary of results not only for players but also for clubs.
+3. Add a dashboard or data to the existing ones about individual competitions that allow you to compare the results of the competitor throughout the year.
+4. Add a summary of the results for each year.
+
+Some of the above solutions may be implemented in the future. In the design phase, they were abandoned by me due to the objectively small number of gymnasts in individual years or the small number of starts. Let's move on to the final use of the tool which is Excel for the task we have undertaken.
+
+`+++ PROS +++`
+
+* Convenient and clear GUI
+* A set of tools to improve the readability of data - text formatting, formatting, etc.
+* Convenience and ease in applying mathematical calculations
+* Intuitive tools for creating charts and summaries
+* The ability to automate repetitive activities using macros
+* Ability to create advanced dashboards and reports
+* A large number of support materials available on the web
+* Universal - you can create calendars, reports, statements, keep budgets, etc.
+
+`--- CONS ---`
+
+* Limited to one million rows, exactly - 1,048,576
+* The GUI with a larger amount of data (hundreds of thousands of rows) makes the whole thing work laboriously.
+* Difficult to scale - some solutions that work well with a certain amount of data may turn out to be very difficult to implement in larger projects.
+* The method of implementing certain solutions can be limiting in complex projects.
+
+`??? SOLUTION ???`
+
+* As before - it is worth having such a wide range of skills to be able to use other tools, for example programming languages, with more data.
+
+---
+
+### Excel is an excellent tool and for many it will be absolutely sufficient to solve their everyday professional problems. In this project, thanks to him, we looked at the level of Polish gymnastics, but in order to know whether the marks obtained by our players are high or low on the international arena, they should be placed in a certain context. I invite you to Project 4, where, using Power BI, we will take a closer look at the gymnastics rating at the most important events in the world!

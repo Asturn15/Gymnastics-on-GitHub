@@ -57,7 +57,7 @@ The sheets were saved by me in two formats:
 * `XLS` in folder [Clean XLS](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20XLS)
 * `CSV` in folder [Clean CSV](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data/Clean%20CSV)
 
----
+## SUMMARY
 
 `+++ __PROS__ +++`
 
