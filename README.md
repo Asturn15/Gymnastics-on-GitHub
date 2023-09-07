@@ -1,4 +1,4 @@
-# Who am I ?
+# README
 
 Hi, my name is __Michal__. I have been working as a sports gymnastics trainer for 8 years. Numbers are something that has always accompanied me. Tables, charts have never been just a set of lines and numbers, but what impressed me because they describe the reality that surrounds us. For this reason, I was a diligent student of mathematics, physics and computer science until the final year.
 
