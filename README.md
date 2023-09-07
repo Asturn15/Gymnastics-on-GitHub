@@ -28,10 +28,10 @@ __**[PROJECT 2](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Proje
 
 __**[PROJECT 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis)**__ - __Microsoft Excel__ - Analysis of results from Poland using the most popular tool.
 
+__**[PROJECT 4](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%204%20-%20Power%20BI%20dashboard)**__ - __Power BI__ - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world.
+
 ### Projects in progress, will be update in the future =>
 
->[PROJECT 4] - Power BI - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world.
->
 >[PROJECT 5] - Python - An interactive dashboard using a programming language.
 >
 >[PROJECT 6] - ML model in Python - A simple model that allows you to predict gymnasts score.
