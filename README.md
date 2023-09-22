@@ -28,7 +28,7 @@ __**[PROJECT 2](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Proje
 
 __**[PROJECT 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis)**__ - __Microsoft Excel__ - Analysis of results from Poland using the most popular tool.
 
-__**[PROJECT 4](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%204%20-%20Power%20BI%20dashboard)**__ - __Power BI__ - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world.
+__**[PROJECT 4](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%204%20-%20Power%20BI%20dashboard)**__ - __Power BI__ - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world - __IN PROGRESS__
 
 ### Projects in progress, will be update in the future =>
 

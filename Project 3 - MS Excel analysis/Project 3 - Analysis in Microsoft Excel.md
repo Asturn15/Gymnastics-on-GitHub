@@ -244,10 +244,11 @@ Some of the above solutions may be implemented in the future. In the design phas
 * The GUI with a larger amount of data (hundreds of thousands of rows) makes the whole thing work laboriously.
 * Difficult to scale - some solutions that work well with a certain amount of data may turn out to be very difficult to implement in larger projects.
 * The method of implementing certain solutions can be limiting in complex projects.
+* Using VBA - although it can be extremely helpful, it is not very intuitive and is limited only to the MS Excel environment.
 
 `??? SOLUTION ???`
 
-* As before - it is worth having such a wide range of skills to be able to use other tools, for example programming languages, with more data.
+* Some of the above problems can be solved by implementing very specific solutions, which I tried to point out, but this does not solve all the problems. Some of them result directly from the limitations of the Excel tool. In this situation, it is worth having other skills in your "workshop", such as programming skills.
 
 ---
 

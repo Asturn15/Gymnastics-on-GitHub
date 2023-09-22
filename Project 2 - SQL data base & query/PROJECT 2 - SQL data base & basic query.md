@@ -19,9 +19,7 @@ For this reason, I decided to build a database in SQL, which will contain the re
 
 Below is a step-by-step description of how we managed to create a complete database with the results:
 
-## STEP 1 - Creating a data base - `mag_result_2022`
-
-## STEP 2 - Creating tables and loading data
+## STEP 1 - Creating a data base and loading data
 
 For the purposes of operations in sql, I decided to simplify the names of individual data sets to the name of the city where the competition took place and the year.
 
@@ -32,7 +30,7 @@ For the purposes of operations in sql, I decided to simplify the names of indivi
 * _pc_apparatus_final_2022_
 * _pc_vault_final_2022_
 
-## STEP 3 Cleaning data
+## STEP 2 Cleaning data
 
 1. Indication of proper formatting for columns:
 
@@ -44,7 +42,7 @@ For the purposes of operations in sql, I decided to simplify the names of indivi
 
 3. Remove empty spaces in the `Club` column.
 
-## STEP 4 - Creating a table in which we will find all the gymnasts who took part in the competition in 2022 - `gymnasts`
+## STEP 3 - Creating a table in which we will find all the gymnasts who took part in the competition in 2022 - `gymnasts`
 
 1. Create a primary key for the `License_number` column and foreign keys for the corresponding columns in tables containing competition results.
 
@@ -52,13 +50,13 @@ For the purposes of operations in sql, I decided to simplify the names of indivi
 
 3. Adding columns in which we will find information about the number of finals in Polish Championship and total number of medals in 2022.
 
-## STEP 5 - Creation of a table in which we will find all the clubs that competed in 2022 - `clubs`
+## STEP 4 - Creation of a table in which we will find all the clubs that competed in 2022 - `clubs`
 
 1. Create primary key for `Club` column and foreign keys for corresponding columns in other tables.
 
 1. Adding a column with data on the number of gymnasts in each category, the name of the city from which the club comes from, and its address.
 
-## STEP 6 - Creation of tables containing the results of the competition on every apparatus for all competitors
+## STEP 5 - Creation of tables containing the results of the competition on every apparatus for all competitors
 
 Using the capabilities of SQL and the previously created primary and forgein key, I easily created the following tables, which contain all players from the _gymnasts_ table and their corresponding results on each apparatus:
 
@@ -72,9 +70,9 @@ Using the capabilities of SQL and the previously created primary and forgein key
 
 >Due to the fact that the data from the finals are saved in a different format and contain an additional __Penalty__ column, they were not used in the creation of the results tables. We will use them in [Project 4] and [Project 5].
 
-## STEP 7 -  Export of tables containing results from every apparatus for future projects ([Exported tables - CSV](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query/Exported%20tables%20-%20CSV))
+## STEP 6 -  Export of tables containing results from every apparatus for future projects ([Exported tables - CSV](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query/Exported%20tables%20-%20CSV))
 
-## STEP 8 - Let's collect some answers
+## STEP 7 - Let's collect some answers
 
 I decided to use the created database to answer on 10 questions about the results, and gymnasts in 2022 ([Database & query](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query/Data%20base%20%26%20query)).
 
