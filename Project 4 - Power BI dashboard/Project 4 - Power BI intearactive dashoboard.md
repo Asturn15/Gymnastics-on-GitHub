@@ -28,11 +28,11 @@ In order to be consistent with the subject of the report, I decided on a style s
 
 1. The imported data looks very good, but for the needs of this project it required some transformations. To make calculations convenient, I used PowerQuery to create a table containing the results from the competition on each apparatus:
 
-`AA_Result, Floor Exercise, Pommel Horse, Still Rings, Vault, Parallel bars, Horizontal Bar`
+   `AA_Result, Floor Exercise, Pommel Horse, Still Rings, Vault, Parallel bars, Horizontal Bar`
 
 2. Added columns to the tables informing about the origin of this data:
 
-`Category, Competition Level`
+   `Category, Competition Level`
 
 3. Drop ___NULL___ rows from every table.
 
@@ -71,7 +71,7 @@ At the beginning, a small annotation - I will not describe the structure of each
 - __Difficult Score__ presented in the form of a stacked bar chart showing the grades obtained by the gymnast on each apparatus.
 - __Execution Score__ similarly to the above, it is a cumulative bar chart containing individual ratings, but also the number of points the gymnast lost during the entire all-around.
 
-4. Filter - These are buttons that allow you to quickly switch between the results you are interested in according to the basic categories according to which the data is divided:
+4. `Filter` - These are buttons that allow you to quickly switch between the results you are interested in according to the basic categories according to which the data is divided:
 
 - __Category__
 - __Competition level__
@@ -88,6 +88,48 @@ At the beginning, a small annotation - I will not describe the structure of each
 
 This one does not differ significantly from the all-around results card, so I will focus on pointing out and justifying the differences.
 
+1. `Table` - looks really similar to this in all-around pages, but with few diffrences:
+
+- __Yellow background__ - for result from All Around final
+- __Pink dot__ - in _E Score_ column this one is a must for those who have achieved proof 9.000 and above for execution
+- __Penalty__ - column with value of neutral deductions
+
+2. `Distibution chart` - No changes here
+
+3. `Apparatus Chart` - Here I decided to use two charts - for D Score and E Score with the card being numerical information.
+
+- __D Score__ - how many points separate the player from the best mark
+- __E Score__ - how many points the player lost for his routine
+
+   Both charts are in the form of a donut with a graphical representation of the data
+
+4. `Filter`- No changes here
+
+5. `Card` - Near to the card with rank, you can find information how far this results is from the best score on this apparatus.
+
 ## Step 6 - Gymnasts Data
 
+The center of this page is an interactive map showing all the countries whose competitors took part in the competition. On its edges you will find a summary of achieved successes and basic filters that allow you to display specific information.
+
+1. `Map` - The map not only shows the countries from which the competing competitors come, but also their number is determined by the intensity of the color. After hovering over the country, we will see a label with the names of the gymnasts, category and place in country ranking (more in the description of the "_Label for Gymnasts Data_" page).
+
+2. `Filter` - These, similarly to the previously described pages, allow you to easily filter information according to specific categories:
+
+- __Medals__ - displays only those countries whose competitors win medals in the finals.
+- __Finals__ - displays only those countries whose competitors took part in the finals.
+- __Categories__ - displays countries according to the category in which the competitors competed - _senior, junior_
+
+3. `Card` - these summarize data for individual countries in the form of numbers.
+
+- __Medals & Finals__ - The cards above the map summarize the number of participants in the finals and the medals they won for their country. The cards on the right side of the map show a detailed breakdown of medals won by athletes of a specific country.
+- __Number of gymnasts__ - displays number of all gymnasts from country.
+
 ## Step 7 - Label for Gymnasts Data
+
+This is the last type of page that was designed for this report. There are three elements on it:
+
+1. `Table` - this column contains the names and categories of players.
+2. `Card` - These display two types of information.
+
+- __Flag__ - according to the filter of the players
+- __Ranking__ - this is calculated based on the following formula:
