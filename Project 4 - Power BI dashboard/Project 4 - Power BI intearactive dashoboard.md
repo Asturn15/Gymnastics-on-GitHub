@@ -5,7 +5,7 @@ The amount of data collected by companies can be huge. If you wanted to review t
 The program version used:
 
 [Power BI Desktop - free version](https://www.microsoft.com/pl-pl/download/details.aspx?id=58494)
- 
+
 It invites you on a journey through the results of the world's top athletes in gymnastics.
 
 ## STEP 1 - Data import
@@ -84,7 +84,7 @@ At the beginning, a small annotation - I will not describe the structure of each
 
 - __Deduction__ - The last two cards are the number of neutral deductions and their sum
 
-## Step 5 - Apparatus page
+## STEP 5 - Apparatus page
 
 This one does not differ significantly from the all-around results card, so I will focus on pointing out and justifying the differences.
 
@@ -107,7 +107,7 @@ This one does not differ significantly from the all-around results card, so I wi
 
 5. `Card` - Near to the card with rank, you can find information how far this results is from the best score on this apparatus.
 
-## Step 6 - Gymnasts Data
+## STEP 6 - Gymnasts Data
 
 The center of this page is an interactive map showing all the countries whose competitors took part in the competition. On its edges you will find a summary of achieved successes and basic filters that allow you to display specific information.
 
@@ -124,7 +124,7 @@ The center of this page is an interactive map showing all the countries whose co
 - __Medals & Finals__ - The cards above the map summarize the number of participants in the finals and the medals they won for their country. The cards on the right side of the map show a detailed breakdown of medals won by athletes of a specific country.
 - __Number of gymnasts__ - displays number of all gymnasts from country.
 
-## Step 7 - Label for Gymnasts Data
+## STEP 7 - Label for Gymnasts Data
 
 This is the last type of page that was designed for this report. There are three elements on it:
 
@@ -133,3 +133,35 @@ This is the last type of page that was designed for this report. There are three
 
 - __Flag__ - according to the filter of the players
 - __Ranking__ - this is calculated based on the following formula:
+
+## STEP 8 - Navigation bar
+
+in an earlier project you could choose in the form of a filter which apparatus you would like to see the results from. Here I decided to use a side panel with 8 tiles allowing navigation between the report pages.
+
+1. `Globe icon` - Gymnasts data page
+2. `AA` - All Around results
+3. `FX` - Floor Exercises results
+4. `PH` - Pommel Horse results
+
+>This is the last page that is fully complete in terms of results and functionality. Each new one will be added successively
+
+5. `SR` - Still Rings results
+6. `VT` - Vault results
+7. `PB` - Pararell Bars results
+8. `HB` - Horizontal Bar results
+
+## STEP 9 - Let's answer about some questions
+
+Like in other projects, I would like this one to answer some questions. In an earlier project we looked at results from Poland, this project focused on analyzing results from around the world. Having these two analyses, we can compare them and point out the differences, which will allow us to evaluate Polish players against the international ones. What we might be particularly interested in is how the average values for individual assessments differ and their distribution. What you should also pay attention to is where the best Polish players rank compared to the world's best. I have divided the answers to these questions into two main categories:
+
+1. `All-Around`
+
+2. `Specialists`
+
+## Summary
+
+`+++ PROS +++`
+
+`--- CONS ---`
+
+`??? SOLUTION ???`
