@@ -162,6 +162,32 @@ Like in other projects, I would like this one to answer some questions. In an ea
 
 `+++ PROS +++`
 
+- Excel Integration - You can easily move between these two environments. PowerBI is great at reading XLS files, and you can easily export data imported to PowerBI to Excel.
+
+- Data Connectivity - You can import data from many sources such as SQL Server Database, Azure sources, cloud-base sources etc. in a simple and accessible way.
+
+- Custom Visualizations - In addition to those built into the program, there is a market from which you can download a huge number of visualizations prepared by the community. In addition, there is a simple way to add scripts written in programming languages ​​such as R or Python.
+
+- Power BI Embedded - You can share reports created using PoweBi with other users in a simple and accessible way.
+
+- Data Accessibility - In addition to the report itself, you can gain access to the data on the basis of which it was built in a very simple and quick way.
+
+- Interactive Visualizations - The reports created can contain a lot of details, visible after interacting with them, making them transparent and at the same time not losing important information.
+
+- Affordability - The basic version is completely free. If you want to use its full potential, it costs ~$10, which is incredibly little for such a tool.
+
+- Friendly interface - You can add and modify visualizations in a comfortable and transparent way, which lowers the entry threshold.
+
 `--- CONS ---`
 
+- Handling with large data volume - Charts, cards and tables can look fantastic, but when there are really large amounts of data, they stop working smoothly.
+
+- Limited number of modifications for a single visualization - In most cases, this is enough, however, with more complex projects you may feel that something is missing. Then we can use those in Markt or write such visualizations ourselves, e.g. in Python.
+
+- Expression language - This, just like the visualization settings, is usually completely sufficient, but in specific cases it can be unintuitive, and nesting forums can be difficult to operate.
+
 `??? SOLUTION ???`
+
+- PowerBI turned out to be a sufficient tool to create the presented report. During the work, I did not feel any limitations related to its use. Probably due to the small amount of data.
+
+### When finishing project 4, I realized that I did not want to build another dashboard, this time using programming tools on the same data set. I will use these to build machine learning models to predict player ratings (originally Project 6) I will present my skills in data analysis and building dashboards using Python using other data sets soon
