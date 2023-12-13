@@ -132,7 +132,35 @@ This is the last type of page that was designed for this report. There are three
 2. `Card` - These display two types of information.
 
 - __Flag__ - according to the filter of the players
-- __Ranking__ - this is calculated based on the following formula:
+- __Ranking__ - the ranking was determined based on the sum of points scored by each competitor according to the above rules:
+
+      QUALIFICATION
+
+        9 point for 3rd place and 2 more points for every place above
+
+        4 point for 8th place and 1 point more for every each place to 4th place
+
+        3 point for place 9 - 16
+
+        2 point for place 16 - 32
+
+        1 point for place 32+
+
+      ALL AROUND FINAL:
+
+        11 point for 3rd place and 2 more points for every place above
+
+        5 point for 8th place and 1 point more for every each place to 4th place
+
+        4 point for place 8 - 12
+
+        3 point for place 12 - 24
+
+      ALL AROUND FINAL:
+
+        8 point for 3rd place and 2 more points for every place above
+
+        2 point for 8th place and 1 point more for every each place to 4th place
 
 ## STEP 8 - Navigation bar
 
