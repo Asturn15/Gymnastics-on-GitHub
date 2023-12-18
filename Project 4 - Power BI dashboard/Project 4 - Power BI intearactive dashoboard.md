@@ -218,4 +218,4 @@ Like in other projects, I would like this one to answer some questions. In an ea
 
 - PowerBI turned out to be a sufficient tool to create the presented report. During the work, I did not feel any limitations related to its use. Probably due to the small amount of data.
 
-### When finishing project 4, I realized that I did not want to build another dashboard, this time using programming tools on the same data set. I will use these to build machine learning models to predict player ratings (originally Project 6) I will present my skills in data analysis and building dashboards using Python using other data sets soon
+### When finishing project 4, I realized that I did not want to build another dashboard, this time using programming tools on the same data set. I will use these to build machine learning models to predict player ratings (originally Project 6). 

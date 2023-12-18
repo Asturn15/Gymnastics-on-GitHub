@@ -32,9 +32,9 @@ __**[PROJECT 4](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Proje
 
 ### Projects in progress, will be update in the future =>
 
->[PROJECT 5] - Python - An interactive dashboard using a programming language.
+>[PROJECT 5] - ML model in Python - A simple model that allows you to predict gymnasts score.
 >
->[PROJECT 6] - ML model in Python - A simple model that allows you to predict gymnasts score.
+>[PROJECT 6] - Data cleaning and visualization in Python
 
 ### At the end of each project you will find three tabs
 
