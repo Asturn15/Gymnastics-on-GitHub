@@ -90,7 +90,7 @@ I intentionally don't give values here because there are a lot of conditions, an
 
 __`Total Score`__ = is the sum of all of the above => (__D Score + Escore__) - __Penalty__
 
-> Looking at what directly affects the final grade, we notice that one of them can be "easily" increased, making our exercise more difficult (D score). The second of these ratings (E score) is a bit more problematic in this respect. Looking at what directly affects the final grade, we notice that one of them can be "easily" increased, making our exercise more difficult (D score). The second of these ratings (E score) is a bit more problematic in this respect. Everyone who went for a short jog at least once experienced fatigue, and with it had to slow down. The same applies to gymnastics, so even the simplest exercises are never flawless.
+> Looking at what directly affects the final grade, we notice that one of them can be "easily" increased, making our exercise more difficult (D score). The second of these ratings (E score) is a bit more problematic in this respect. Everyone who went for a short jog at least once experienced fatigue, and with it had to slow down. The same applies to gymnastics, so even the simplest exercises are never flawless.
 
 Why do we need to know this? Thanks to this knowledge, it will be easier for us to read the results of the competition. We'll have some idea of what's different between exercises that are, for example, 2.0 difficult score, or 1,000 execution score.
 
