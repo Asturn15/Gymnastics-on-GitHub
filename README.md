@@ -22,19 +22,15 @@ Knowing is one thing, using it is quite another. Averages, tables and graphs may
 
 A detailed description of each of the described projects can be found in the note attached to individual folders (Project 1, Project 2, etc.). There you will find the basic assumptions, the biggest challenges, weaknesses and thoughts on the use of this particular tool. Below, the planned roadmap for the analysis results of men's artistic gymnastics in 2022.
 
-__**[PROJECT 1](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data)**__ - __Data__ - extraction, cleaning and saving.
+__[PROJECT 1](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%201%20-%20Data)__ - __Data__ - extraction, cleaning and saving.
 
-__**[PROJECT 2](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query)**__ - __SQL database__ - Database in SQL, containing results from all gymnastics competitions taking place in Poland in 2022.
+__[PROJECT 2](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%202%20-%20SQL%20data%20base%20%26%20query)__ - __SQL database__ - Database in SQL, containing results from all gymnastics competitions taking place in Poland in 2022.
 
-__**[PROJECT 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis)**__ - __Microsoft Excel__ - Analysis of results from Poland using the most popular tool.
+__[PROJECT 3](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%203%20-%20MS%20Excel%20analysis)__ - __Microsoft Excel__ - Analysis of results from Poland using the most popular tool.
 
-__**[PROJECT 4](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%204%20-%20Power%20BI%20dashboard)**__ - __Power BI__ - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world - __IN PROGRESS__
+__[PROJECT 4](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%204%20-%20Power%20BI%20dashboard)__ - __Power BI__ - An interactive dashboard that allows you to compare the results of competitions in Poland with those from the world - __IN PROGRESS__
 
-### Projects in progress, will be update in the future =>
-
->[PROJECT 5] - ML model in Python - A simple model that allows you to predict gymnasts score.
->
->[PROJECT 6] - Data cleaning and visualization in Python
+__[PROJECT 5](https://github.com/Asturn15/Gymnastics-on-GitHub/tree/main/Project%205%20-%20ML%20model%20in%20Python)__ - ML model in Python - A simple model that allows you to predict gymnasts score. __IN PROGRESS__
 
 ### At the end of each project you will find three tabs
 
